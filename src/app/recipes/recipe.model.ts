@@ -8,5 +8,12 @@ export class Recipe {
         this.description = desc;
         this.imagePath = imagePath;
     }
-
+   
 }
+
+
+//TO SAMO W ZAPISIE SKRÓCONYM:
+//
+// export class Recipe {
+//     constructor (public name: string, public description: string, public imagePath: string ) {}
+// }  
